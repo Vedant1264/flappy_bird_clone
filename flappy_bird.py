@@ -49,7 +49,7 @@ gravity = 0
 score = 0
 font = pygame.font.Font(None, 80)
 
-bird = pygame.image.load('games\\bird.png').convert()
+bird = pygame.image.load('bird.png').convert()
 bird = pygame.transform.scale(bird, (40,40))
 bird_rect = bird.get_rect(center = (40,100))
 
